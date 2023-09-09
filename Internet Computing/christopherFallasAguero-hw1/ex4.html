@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex4</title>
+    </head>
+    <body>
+
+        <!--Reservation form section-->
+        <div>
+            <h3><b>Reservations Form</b></h3>
+            <form method = "post">
+                <table>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><b>Address</b></td>
+                    </tr>
+                    <tr>
+                        <td>Number & Street:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Zip Code:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Check-in Date:</td>
+                        <td><input type="date" required></td>
+                    </tr>
+                    <tr>
+                        <td>Check-out Date:</td>
+                        <td><input type="date" required></td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td><input type="tel" placeholder="(###) ###-####" 
+                            pattern="\(\d{3}\) +\d{3}-\d{4} *" required>
+                            (###) ###-####</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail address:</td>
+                        <td><input type="text" placeholder="name@domain.com" required></td>
+                    </tr>
+                    <tr>
+                        <td>Payment Method:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Card Number:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Special Requests:</td>
+                        <td><textarea name="specialReq" id="specialReq" 
+                            cols="30" rows="4" placeholder="Enter your request here"></textarea></td>
+                    </tr>
+                </table>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </div>
+    </body>
+</html>
