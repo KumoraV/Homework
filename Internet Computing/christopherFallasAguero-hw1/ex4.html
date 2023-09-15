@@ -31,7 +31,8 @@
                     </tr>
                     <tr>
                         <td>State:</td>
-                        <td><select name = "cars" required>
+                        <td><select name = "states"  required>
+                            <option value=""></option>
                             <option value="AL">Alabama</option>
                             <option value="AK">Alaska</option>
                             <option value="AZ">Arizona</option>
@@ -40,7 +41,6 @@
                             <option value="CO">Colorado</option>
                             <option value="CT">Connecticut</option>
                             <option value="DE">Delaware</option>
-                            <option value="DC">District Of Columbia</option>
                             <option value="FL">Florida</option>
                             <option value="GA">Georgia</option>
                             <option value="HI">Hawaii</option>
@@ -105,11 +105,17 @@
                     </tr>
                     <tr>
                         <td>E-mail address:</td>
-                        <td><input type="text" placeholder="name@domain.com" required></td>
+                        <td><input type="email" placeholder="name@domain.com" required></td>
                     </tr>
                     <tr>
                         <td>Payment Method:</td>
-                        <td><input type="text" required></td>
+                        <td><select name="paymentMethod" required>
+                            <option value =""></option>
+                            <option value ="mastercard">MasterCard</option>
+                            <option value ="visa">Visa</option>
+                            <option value ="amex">Amex</option>
+                            <option value ="discover">Discover</option>
+                        </select></td>
                     </tr>
                     <tr>
                         <td>Card Number:</td>
