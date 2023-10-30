@@ -15,9 +15,8 @@ p, ul
 }
 footer
 {
-    position: absolute;
+    position: sticky;
     background-color: rgb(78, 76, 87);
-    left: 0;
     bottom: 0;
     width: 100%;
 }
@@ -39,29 +38,41 @@ img
     width: 200px;
     height: 200px;
 }
-.flexContainer
-{
-    display: flex;
-    background-color: lightgreen;
-    flex-direction: row;
-}
-.flexContainer > div
-{
-    font-size: small;
-    margin: 9px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
 .center
 {
     text-align: center;
 }
 .logo
 {
-    height: 60px;
+    height: 65px;
     width: 60px;
 }
 div.description
 {
     margin-left: 10%;
+}
+.hamburger
+{
+    display: none;
+    cursor: pointer;
+}
+.bar
+{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        width: 100%; /* Set the width of the columns to 100% on xs screens */
+        padding: 0; /* Remove any padding */
+    }
+    .hamburger{
+        display: block;
+    }
 }

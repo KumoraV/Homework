@@ -7,6 +7,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            .container
+            {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        </style>
     </head>
     <body>
         <h1 class="text-center">The Cool Crew's Resort</h1>
@@ -17,36 +24,54 @@
                 <img class="logo" src="lionLogo.jpg" alt="lionLogo">
             </a>
             <!-- Navbar Button-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="hamburger" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
 
             <!-- Navbar Links-->
             <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="navbar-nav">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="yurts.html">Yurts</a>
+                        <a class="nav-link" href="yurts.php">Yurts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="activities.html">Activities</a>
+                        <a class="nav-link" href="activities.php">Activities</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="reservation.html">Reservation</a>
+                        <a class="nav-link" href="reservation.php">Reservation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comments.html">Comments</a>
+                        <a class="nav-link" href="comments.php">Comments</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
+
+        <!-- Main Body -->
+        <div class="container" style="margin-top: 15px;">
+            <p>The Cool Crew's Resort offers a special lodging experience on the New Jersey Eastern Coast.</p>
+            <p>Relax in Serenity with Panoramic views of the Atlantic Ocean.</p>
+            <ul>
+                <li>Private yurts with decks overlooking the ocean</li>
+                <li>Activities lodge with fireplace and gift shop</li>
+                <li>Nightly fine dining at the Overlook Cafe</li>
+                <li>Heated outdoor pool and whirlpool</li>
+                <li>Guided hiking tours of the redwoods</li>
+            </ul>
+            <br>
+            <p>John's Resort</p>
+            <p>One Normal Ave, Montclair</p>
+            <p>New Jersey NJ 07043</p>
+            <p>807-671-3691</p>
         </div>
         <footer class="bg-dark text-white">
-            <div class="container text-center">
-                <p>Copyright &copy; 2023 Cool Crew Resort</p>
+            <div class="text-center">
+                <p>Copyright &copy; <?php echo date("Y");?> Cool Crew Resort</p>
                 <p>email: cool.crew@mail.montclair.edu</p>
             </div>
         </footer>
