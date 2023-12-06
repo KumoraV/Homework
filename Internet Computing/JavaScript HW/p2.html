@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="string"></div>
+        <script>
+            let div = "";
+            const color = ["yellow", "blue", "cyan", "lightblue", "darkgreen", "purple", "black"];
+            for (let i = 0; i < 3; i++)
+            {
+                div += "<table>\
+                            <tr>\
+                                <th>Year</th>\
+                                <th>Amount on deposit</th>\
+                                <th>Interest Rate</th>\
+                            </tr>\
+                            <tr>\
+                                <td>1</td>\
+                                <td>1050.00</td>\
+                                <td>0.05</td>\
+                            </tr>\
+                        </table><br>";
+            }
+            document.getElementById("string").innerHTML = div;
+        </script>
+    </body>
+</html>

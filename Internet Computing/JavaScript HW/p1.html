@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div id="string"></div>
+        <script>
+            let div = "";
+            const color = ["yellow", "blue", "cyan", "lightblue", "darkgreen", "purple", "black"];
+            for (let i = 0; i < 7; i++)
+            {
+                div += "<p style='font-size: " + (i+1) +"ex; color: " + color[i] + ";'>HTML5 font size " + (i + 1) +"ex</p>";
+            }
+            for (let i = 5; i >= 0; i--)
+            {
+                div += "<p style='font-size: " + (i+1) +"ex; color: " + color[i] + ";'>HTML5 font size " + (i + 1) +"ex</p>";
+            }
+            document.getElementById("string").innerHTML = div;
+        </script>
+    </body>
+</html>
