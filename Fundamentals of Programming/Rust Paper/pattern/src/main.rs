@@ -18,20 +18,16 @@ fn main() {
         Toyota,
     }
 
-    enum CarShop
+    let car1 = CarsOwned::Honda;
+    let car2 = CarsOwned::Toyota;
+    // This will print since car1 is a honda
+    if let CarsOwned::Honda = car1
     {
-        Mitsubishi,
-        Honda,
-        Acura,
+        println!("You already own a Honda!");
     }
-
-    let new_car = CarShop::Honda;
-
-    if let CarShop::Honda = new_car
+    // This will not print since car2 is a toyota
+    if let CarsOwned::Honda = car2
     {
-        if let CarsOwned::Honda = new_car
-        {
-            println!("\nYou already own a Honda!");
-        }
+        println!("You already own a Honda!");
     }
 }
