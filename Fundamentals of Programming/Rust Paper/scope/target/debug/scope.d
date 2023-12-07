@@ -1,0 +1,1 @@
+C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\scope\target\debug\scope.exe: C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\scope\src\main.rs

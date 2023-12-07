@@ -1,0 +1,1 @@
+C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\pattern\target\debug\pattern.exe: C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\pattern\src\main.rs

@@ -1,0 +1,1 @@
+C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\thread\target\debug\thread.exe: C:\Users\chris\Documents\Code\Homework\Fundamentals\ of\ Programming\Rust\ Paper\thread\src\main.rs
